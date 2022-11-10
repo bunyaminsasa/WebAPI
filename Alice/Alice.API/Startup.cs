@@ -41,6 +41,7 @@ namespace Alice.API
 
             app.UseStaticFiles();
             app.UseRouting();
+            app.UseAuthentication();
             app.UseOpenApi();
             app.UseSwaggerUi3();
             app.UseEndpoints(endpoints =>
