@@ -4,6 +4,7 @@ using Microsoft.AspNetCore.Mvc;
 
 namespace Alice.API.Controllers
 {
+    [Authorize]
     [Route("api")]
     public class OgrenciController : Controller
     {
